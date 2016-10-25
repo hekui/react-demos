@@ -9,8 +9,8 @@ react学习历程
 
 将jsx编译为js的方式：
 
-  npm install -g react-tools
+    npm install -g react-tools
 //安装编译工具
 
-  jsx src/ /dest
+    jsx src/ /dest
 //将src/目录下的jsx编译到/dest目录下
