@@ -2,6 +2,7 @@ ReactDOM.render(
 	<h1>hello world</h1>,
 	document.getElementById("root")
 )
+
 //root#2
 var names=['jack','rose'];
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
 	</div>,
 	document.getElementById("root2")
 )
+
 //root#3
 var arr=[
 	<div>hello jack</div>,

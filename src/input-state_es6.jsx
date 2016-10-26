@@ -19,6 +19,7 @@ class Component extends React.Component{
 
     render() {
     	let enable = this.state.disable;
+    	
         return (
             <p><input type="text" disabled={enable} /><input type="button" onClick={this.handleClick} value="Change State" /></p>
         );

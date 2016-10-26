@@ -89,6 +89,7 @@
 	        key: 'render',
 	        value: function render() {
 	            var enable = this.state.disable;
+
 	            return _react2.default.createElement(
 	                'p',
 	                null,
