@@ -1,11 +1,7 @@
 module.exports = {
-	entry:{
-		'input-state_es6':'./src/input-state_es6.jsx'
-	},
+	entry:__dirname + "/index.js",
 	output:{
-		path:'./dest/',
-		filename: "[name].bundle.js",
-		chunkFilename: "[id].js"
+		filename: "./index.bundle.js"
 	},
 	module: {
         loaders: [{

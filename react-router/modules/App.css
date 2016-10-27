@@ -1,0 +1,10 @@
+:global(.active){
+	color: #990000;
+}
+.font-size{
+	font-size: 22px;
+}
+.title{
+	composes:font-size;
+	color: #009900;
+}

@@ -2,6 +2,7 @@ ReactDOM.render(
 	React.createElement("h1", null, "hello world"),
 	document.getElementById("root")
 )
+
 //root#2
 var names=['jack','rose'];
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
 	),
 	document.getElementById("root2")
 )
+
 //root#3
 var arr=[
 	React.createElement("div", null, "hello jack"),
